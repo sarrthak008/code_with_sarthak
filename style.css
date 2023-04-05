@@ -1,0 +1,604 @@
+<style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+*{
+margin:0px;
+padding:0px;
+}
+ nav{
+ position:sticky;
+ height:10vh;
+ width:120vw;
+ display:flex;
+ backdrop-filter:blur(50px);
+ border-bottom:1px solid white;
+ }
+ nav img{
+   position:sticky;
+ height:10vh;
+ width:20vw;
+ }
+ 
+ ul{
+ display:flex;
+ }
+ ul li{
+ 
+ list-style:none;
+ margin-top:5vh;
+ margin-left:2.5vh;
+ }
+ ul li a{
+   letter-spacing:0.1vh;
+  margin-left:1vh;
+  width:10vh;
+ font-size:2vh;
+ border-radius:30%;
+ background-color:black;
+ text-decoration:none;
+ color:white;
+ }
+  .main img{
+    height:30vh;
+    width:120vw;
+    position:absolute;
+    top:1vh;
+    z-index:-1;
+     }
+  .text_head{
+    position:relative;
+    top:1vh;
+    color:white;
+    font-size:3vh;
+    font-family: 'Oswald', sans-serif;
+    left:12vh;
+    letter-spacing:2vh;
+    
+  }
+  h6{
+    position:absolute;
+    font-size:1vh;
+    top:4vh;
+    left:2vh;
+  }
+.header_course{
+  position:absolute;
+  top:35vh;
+  left:13vh;
+  font-size:80px;
+letter-spacing:3.4vh;
+font-family: 'Oswald', sans-serif;
+
+}
+ #lang_course{
+   display:flex;
+   flex-wrap:warp;
+ }
+.py_course{
+  padding:1vh;
+  position:absolute;
+  top:40vh;
+height:40vh;
+width:51vw;
+background-color:#e0eae6;
+border:1px solid black;
+border-radius:10%;
+}
+.py_img h3{
+  font-size:4vh;
+  margin-left:4vh;
+  
+  
+}
+.py_img img{
+  position:relative;
+  right:2.5vh;
+  height:30vh;
+  width:30vh;
+  background-size:cover;
+}
+.py_vid {
+  height:4.7vh;
+  width:50vw;
+  background-color:#275ef2;
+}
+.py_vid a{
+  text-decoration:none;
+  letter-spacing:2vh;
+  color:white;
+  Font-size:2vh;
+  margin-left:5.5vh;
+  matgin-top:7vh;
+  /*_________java_______*/
+}
+.java_course{
+  padding:1vh;
+  position:absolute;
+  top:40vh;
+  left:33vh;
+background-color:#e0eae6;
+height:40vh;
+width:51vw;
+
+border:1px solid black;
+border-radius:10%;
+}
+.java_img h3{
+  font-size:4vh;
+  margin-left:4vh;
+  
+  
+}
+.java_img img{
+  position:relative;
+  right:2.5vh;
+  height:30vh;
+  width:30vh;
+  background-size:cover;
+}
+.java_vid {
+  height:4.7vh;
+  width:50vw;
+  background-color:#275ef2;
+}
+.java_vid a{
+  text-decoration:none;
+  letter-spacing:2vh;
+  color:white;
+  Font-size:2vh;
+  margin-left:5.5vh;
+  matgin-top:7vh;
+}
+/*________*C*______*/
+.c_course{
+  padding:1vh;
+  position:absolute;
+  top:100vh;
+  left:2vh;
+height:40vh;
+width:51vw;
+background-color:#e0eae6;
+border:1px solid black;
+border-radius:10%;
+}
+.c_img h3{
+  font-size:4vh;
+  margin-left:4vh;
+ }
+.c_img img{
+  position:relative;
+  right:2.5vh;
+  height:30vh;
+  width:30vh;
+  background-size:cover;
+}
+.c_vid {
+  height:4.7vh;
+  width:50vw;
+  background-color:#275ef2;
+}
+.c_vid a{
+  text-decoration:none;
+  letter-spacing:2vh;
+  color:white;
+  Font-size:2vh;
+  margin-left:5.5vh;
+  matgin-top:7vh;
+}
+/*_______html______*/
+.html_course{
+  padding:1vh;
+  position:absolute;
+  top:100vh;
+  left:33vh;
+height:40vh;
+width:51vw;
+background-color:#e0eae6;
+border:1px solid black;
+border-radius:10%;
+}
+.html_img h3{
+  font-size:4vh;
+  margin-left:4vh;
+  
+  
+}
+.html_img img{
+  position:relative;
+  right:2.5vh;
+  height:30vh;
+  width:30vh;
+  background-size:cover;
+}
+.html_vid {
+  height:4.7vh;
+  width:50vw;
+  background-color:#275ef2;
+}
+.html_vid a{
+  text-decoration:none;
+  letter-spacing:2vh;
+  color:white;
+  Font-size:2vh;
+  margin-left:5.5vh;
+  matgin-top:7vh;
+}
+/*_____css_____*/
+
+.css_course{
+  padding:1vh;
+  position:absolute;
+  top:160vh;
+  left:1vh;
+height:40vh;
+width:51vw;
+background-color:#e0eae6;
+border:1px solid black;
+border-radius:10%;
+}
+.css_img h3{
+  font-size:4vh;
+  margin-left:4vh;
+  
+  
+}
+.css_img img{
+  position:relative;
+  right:2.5vh;
+  height:30vh;
+  width:30vh;
+  background-size:cover;
+}
+.css_vid {
+  height:4.7vh;
+  width:50vw;
+  background-color:#275ef2;
+}
+.css_vid a{
+  text-decoration:none;
+  letter-spacing:2vh;
+  color:white;
+  Font-size:2vh;
+  margin-left:5.5vh;
+  matgin-top:7vh;
+}
+
+/*_________php__________*/
+.php_course{
+  padding:1vh;
+  position:absolute;
+  top:160vh;
+  left:33vh;
+height:40vh;
+width:51vw;
+background-color:#e0eae6;
+border:1px solid black;
+border-radius:10%;
+}
+.php_img h3{
+  font-size:4vh;
+  margin-left:4vh;
+  
+  
+}
+.php_img img{
+  position:relative;
+  left:4.7vh;
+  height:30vh;
+  width:20vh;
+  background-size:cover;
+}
+.php_vid {
+  height:4.7vh;
+  width:50vw;
+  background-color:#275ef2;
+}
+.php_vid a{
+  text-decoration:none;
+  letter-spacing:2vh;
+  color:white;
+  Font-size:2vh;
+  margin-left:5.5vh;
+  matgin-top:7vh;
+}
+/*_________kotlin__________*/
+.kol_course{
+  padding:1vh;
+  position:absolute;
+  top:220vh;
+  left:vh;
+height:40vh;
+width:51vw;
+background-color:#e0eae6;
+border:1px solid black;
+border-radius:10%;
+}
+.kol_img h3{
+  font-size:4vh;
+  margin-left:4vh;
+ }
+.kol_img img{
+  position:relative;
+  left:4.7vh;
+  height:30vh;
+  width:20vh;
+  background-size:cover;
+}
+.kol_vid {
+  height:4.7vh;
+  width:50vw;
+  background-color:#275ef2;
+}
+.kol_vid a{
+  text-decoration:none;
+  letter-spacing:2vh;
+  color:white;
+  Font-size:2vh;
+  margin-left:5.5vh;
+  matgin-top:7vh;
+}
+/*_________c++__________*/
+.cp_course{
+  padding:1vh;
+  position:absolute;
+  top:220vh;
+  left:33vh;
+height:40vh;
+width:51vw;
+background-color:#e0eae6;
+border:1px solid black;
+border-radius:10%;
+}
+.cp_img h3{
+  font-size:4vh;
+  margin-left:4vh;
+ }
+.cp_img img{
+  position:relative;
+  left:4.7vh;
+  height:30vh;
+  width:20vh;
+  background-size:cover;
+}
+.cp_vid {
+  height:4.7vh;
+  width:50vw;
+  background-color:#275ef2;
+}
+.cp_vid a{
+  text-decoration:none;
+  letter-spacing:2vh;
+  color:white;
+  Font-size:2vh;
+  margin-left:5.5vh;
+  matgin-top:7vh;
+}
+/*_________js__________*/
+.js_course{
+  padding:1vh;
+  position:absolute;
+  top:220vh;
+  left:vh;
+height:40vh;
+width:51vw;
+background-color:#e0eae6;
+border:1px solid black;
+border-radius:10%;
+}
+.js_img h3{
+  font-size:4vh;
+  margin-left:4vh;
+ }
+.js_img img{
+  position:relative;
+  left:4.7vh;
+  height:30vh;
+  width:20vh;
+  background-size:cover;
+}
+.js_vid {
+  height:4.7vh;
+  width:50vw;
+  background-color:#275ef2;
+}
+.js_vid a{
+  text-decoration:none;
+  letter-spacing:2vh;
+  color:white;
+  Font-size:2vh;
+  margin-left:5.5vh;
+  matgin-top:7vh;
+}
+
+.skill_div{
+  height:80vh;
+  width:100vw;
+  position:absolute;
+  top:300vh;
+ }
+ .skill_div img{
+   height:80vh;
+   width:120vw;
+   }
+   .skill_div h3{
+    position:relative;
+    left:4.5vh;
+   font-size:80px;
+  letter-spacing:3.4vh;
+  font-family: 'Oswald', sans-serif;
+     
+   }
+
+
+
+
+
+
+
+  /*____________for mobile____________*/
+ @media only screen and (max-width: 720px) {
+   *{margin:0px;
+     padding:0px;
+    
+   }
+  nav{
+    height:20vh;
+    width:100vw;
+   }
+   nav img{
+     position:absolute;
+     left:40vw;
+   }
+ul li{
+ margin-top:13vh;
+ margin-left:1.7vh;
+ }
+ ul li a{
+   font-size:2.8vh;
+ }
+ .main img{
+    height:50vh;
+    width:100vw;
+ }
+  .text_head{
+    letter-spacing:0.5vh;
+    font-weigh:bold;
+    position:absolute;
+    top:30vh;
+    left:5vh;
+    font-size:3vh;
+    backdrop-filter:blur(5px);
+  }
+  .text_head .br{
+    position:absolute;
+    left:10vh;
+  }
+.header_course{
+  position:absolute;
+  top:55vh;
+  left:8.4vh;
+  font-size:25px;
+  font-family: 'Oswald', sans-serif;
+}
+.py_course{
+  padding:1vh;
+  position:absolute;
+  top:60vh;
+  left:13vh;
+height:30vh;
+width:50vw;
+background-color:d;
+border:1px solid black;
+border-radius:10%;
+}
+.java_course{
+  padding:1vh;
+  position:absolute;
+  top:115vh;
+  left:13vh;
+height:30vh;
+width:50vw;
+background-color:d;
+border:1px solid black;
+border-radius:10%;
+}
+.c_course{
+  padding:1vh;
+  position:absolute;
+  top:170vh;
+  left:13vh;
+height:30vh;
+width:50vw;
+background-color:d;
+border:1px solid black;
+border-radius:10%;
+}
+.html_course{
+  padding:1vh;
+  position:absolute;
+  top:225vh;
+  left:13vh;
+height:30vh;
+width:50vw;
+background-color:d;
+border:1px solid black;
+border-radius:10%;
+}
+.css_course{
+  padding:1vh;
+  position:absolute;
+  top:280vh;
+  left:13vh;
+height:30vh;
+width:50vw;
+background-color:d;
+border:1px solid black;
+border-radius:10%;
+}
+.php_course{
+  padding:1vh;
+  position:absolute;
+  top:333vh;
+  left:13vh;
+height:30vh;
+width:50vw;
+background-color:d;
+border:1px solid black;
+border-radius:10%;
+}
+.kol_course{
+  padding:1vh;
+  position:absolute;
+  top:385vh;
+  left:13vh;
+height:30vh;
+width:50vw;
+background-color:d;
+border:1px solid black;
+border-radius:10%;
+}
+.cp_course{
+  padding:1vh;
+  position:absolute;
+  top:437vh;
+  left:13vh;
+height:30vh;
+width:50vw;
+background-color:d;
+border:1px solid black;
+border-radius:10%;
+}
+
+.js_course{
+  padding:1vh;
+  position:absolute;
+  top:488vh;
+  left:13vh;
+height:30vh;
+width:50vw;
+background-color:d;
+border:1px solid black;
+border-radius:10%;
+}
+
+.skill_div{
+  height:30vh;
+  width:90vw;
+  position:absolute;
+  top:550vh;
+  
+ }
+.skill_div img{
+   height:30vh;
+   width:100vw;
+}
+.skill_div h3{
+     position:relative;
+     left:5vh;
+     font-size:20px;
+     letter-spacing:1.2vh;
+     font-family: 'Oswald', sans-serif;
+     
+   }
+</style>
