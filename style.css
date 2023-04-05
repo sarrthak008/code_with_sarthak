@@ -437,7 +437,7 @@ border-radius:10%;
 
 
   /*____________for mobile____________*/
- @media only screen and (max-width: 720px) {
+ @media only screen and (max-width: 600px) {
    *{margin:0px;
      padding:0px;
     
